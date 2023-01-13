@@ -10,10 +10,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'face_recognition_models>=0.3.0',
-    'Click>=6.0',
-    'numpy',
-    'Pillow'
+    'face_recognition_models>=0.3.0'
 ]
 
 test_requirements = [
